@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh minmax(120vh,min-content);
+    grid-template-areas: "header"
+                        "contentContainer";
+}
+.header{
+    grid-area: header;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+}
+.contentContainer{
+    grid-area: contentContainer;
+    display: grid;
+    grid-template-columns: minmax(5px,1fr) minmax(min-content,1550px) minmax(5px,1fr);
+    grid-template-rows: minmax(100vh,min-content);
+    grid-template-areas: ". content .";
+}
+.content{
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem,1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    margin-top: 4rem;
+}
+

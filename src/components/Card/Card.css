@@ -1,0 +1,50 @@
+.card {
+    height: 60rem;
+}
+.cardImgCont{
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+.cardDetailsCont{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.cardDetailsCont h3 {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 24px;
+}
+.attr{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color : #2D2D2D;
+}
+.address {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #2D2D2D;
+}
+.listed {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color : #979797
+}
+.reaction{
+    position: absolute;
+    top : 7%;
+    right : 4%;
+    height : 3rem;
+    width : 3rem;
+    cursor: pointer;
+}
